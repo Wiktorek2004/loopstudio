@@ -36,7 +36,7 @@ h3 {
 
 h4 {
   color: white;
-  margin-top: 53px;
+  margin-top: 50px;
   margin-left: 165px;
   font-size: 25px;
 }
@@ -51,6 +51,16 @@ footer {
 .selections {
   padding: 80px 165px 0px 531px;
   word-spacing: 30px;
+}
+
+.choice {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.choice:hover {
+  text-decoration: underline;
 }
 
 .first_paragraph {
@@ -111,6 +121,7 @@ footer {
   background-color: black;
   color: white;
 }
+
 .see_all span {
   font-weight: 700;
   padding: 20px 0px;
@@ -123,6 +134,7 @@ footer {
   grid-template-rows: 400px 400px;
   margin: 0px 145px 140px 145px;
 }
+
 .grid_container p {
   margin: 310px 10px 10px 40px;
   font-size: 25px;
@@ -171,43 +183,34 @@ footer {
   background-size: 100% 100%;
 }
 
-.end_section1 {
-  display: flex;
-  justify-content: space-between;
-  height: 105px;
+.grid_container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 50px;
 }
-
 .icons {
-  margin: 53px 165px 0px 0px;
-  word-spacing: 12px;
-  color: white;
-  text-decoration: none;
+  margin: 50px 165px 0px 417px;
+  word-spacing: 10px;
+  height: 30px;
 }
-
-.end_section2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.end_section2 p {
-  font-size: 15px;
-  color: hsl(0, 0%, 55%);
-  margin-top: 0px;
-  margin-right: 165px;
-}
-
 .footer_selections {
+  margin: 25px 0px 0px 165px;
+  word-spacing: 30px;
   font-size: 13px;
-  margin-left: 165px;
-  word-spacing: 34px;
 }
-
-.choice {
+.footer_text {
+  color: hsl(0, 0%, 55%);
+  margin: 13px 165px 0px 327px;
+  font-size: 13px;
+  height: 25px;
+}
+.choice1 {
   text-decoration: none;
   color: white;
   font-weight: 400;
 }
-.choice:hover {
+
+.choice1:hover {
   text-decoration: underline;
 }
 
@@ -253,10 +256,21 @@ footer {
   footer {
     background-color: black;
     font-family: "Alata";
+    height: 400px;
   }
 
   .selections {
     padding: 0px;
+  }
+
+  .choice {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+
+  .choice:hover {
+    text-decoration: underline;
   }
 
   .first_paragraph {
@@ -376,43 +390,36 @@ footer {
     background-size: 100% 100%;
   }
 
-  .end_section1 {
-    display: flex;
-    justify-content: space-between;
-    height: 105px;
+  .grid_container1 {
+    grid-template-columns: 0px;
+    grid-template-rows: 0px;
   }
-
   .icons {
-    margin: 53px 165px 0px 0px;
-    word-spacing: 12px;
-    color: white;
-    text-decoration: none;
+    margin: 0px;
+    word-spacing: 0px;
+    height: 0px;
+    text-align: center;
   }
-
-  .end_section2 {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .end_section2 p {
-    font-size: 15px;
-    color: hsl(0, 0%, 55%);
-    margin-top: 0px;
-    margin-right: 165px;
-  }
-
   .footer_selections {
+    margin: 0px;
+    word-spacing: 0px;
     font-size: 13px;
-    margin-left: 165px;
-    word-spacing: 34px;
+    text-align: center;
   }
-
-  .choice {
+  .footer_text {
+    color: hsl(0, 0%, 55%);
+    margin: 0px;
+    font-size: 13px;
+    height: 25px;
+    text-align: center;
+  }
+  .choice1 {
     text-decoration: none;
     color: white;
     font-weight: 400;
   }
-  .choice:hover {
+
+  .choice1:hover {
     text-decoration: underline;
   }
 }
